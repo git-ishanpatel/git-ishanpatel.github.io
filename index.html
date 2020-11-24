@@ -5,21 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CyberMantra - Connecting World With CyberWorld</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
             <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <div class="rightNav">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm"><i class="fa fa-search"></i></button>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button class="btn btn-sm"></button>
+           
         </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>  
     </nav>
     <section class="firstSection">
         <div class="box-main">
@@ -85,8 +92,12 @@
             <input type="text" name="Name" id="name" placeholder="Name">
             <input type="text" name="phone" id="phone" placeholder="Phone">
             <input type="text" name="email" id="email" placeholder="Email">
-            <button class="btn">Submit<i class="fa fa-submit"></i></button>
+            <button class="btn-sub">Submit<i class="fa fa-submit"></i></button>
         </div>
     </section>
+    <footer>
+        <p class="footer-text">Copyright &copy; 2030 www.cyberworld.com - All rights reserved</p>
+    </footer>
+    <script src="js/resp.js"></script>
 </body>
 </html>
