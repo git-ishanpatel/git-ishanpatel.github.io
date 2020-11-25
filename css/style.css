@@ -11,6 +11,8 @@
     justify-content: center;
 }
 .logo img {
+    
+    
     width: 33%;
     border: 3px solid green;
     border-radius: 50px;
@@ -27,6 +29,8 @@
     top: 0;
 }
 .nav-list {
+    transition-property: all;
+    transition-duration: 4s;
    width: 70%;
    background-color: black;
    display: flex;
@@ -34,6 +38,8 @@
 }
 
 .nav-list li{
+    transition-property: all;
+    transition-duration: 4s;
     list-style: none;
     padding: 23px 30px;
     
@@ -77,6 +83,8 @@
 }
 
 .shalf {
+    transition: all;
+    transition-duration: 4s;
     
     height:70vh;
     padding: 5% 2%;
@@ -118,12 +126,17 @@
     background-color: black;
 }
 .fhalf h1{
+    transition-property: all;
+    transition-duration: 2s;
+   
     margin-left:20px;
     justify-content: center;
     padding: 1% 2% 0 2%;
     color:white;
 }
 .fhalf img{
+    transition-property: all;
+    transition-duration: 4s;
     width:13%;
     margin-top: 8%;
     
@@ -168,6 +181,7 @@
     flex-direction: row-reverse;
 }
 .paras{
+    
     padding:65px;
     background:rgba(0, 0, 0, 0.7) url("/img/background.jpg")
     background-style:cover;
