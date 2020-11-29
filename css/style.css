@@ -320,6 +320,7 @@
         height: 447px;
         flex-direction: column;
         transition: all 0.7s ease-out;
+        overflow:hidden;
         
     }
     .box-main{
