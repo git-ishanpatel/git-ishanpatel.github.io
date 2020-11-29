@@ -344,6 +344,7 @@
     }
     .v-class-resp{
         opacity:0;
+        pointer-events:none;
     }
     .section{
         flex-direction: column-reverse;
