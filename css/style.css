@@ -19,7 +19,7 @@
 }
 
 .navbar {
-    
+    overflow:hidden;
     display: flex;
     border-bottom: 1px solid lawngreen;
     padding-bottom: 5px;
@@ -342,10 +342,12 @@
     }
     .h-nav-resp{
         height:72px;
+        overflow:hidden;
     }
     .v-class-resp{
         opacity:0;
         pointer-events:none;
+        overflow:hidden;
     }
     .section{
         flex-direction: column-reverse;
