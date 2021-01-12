@@ -1,0 +1,89 @@
+@media only screen and (max-width:1050px){
+   
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 336px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        overflow:hidden;
+        
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width:100%;
+    }
+    .rightNav{
+       text-align: center;
+       width: 60%;
+        
+    }
+    #search {
+        width:100%;
+        margin: 10px 15px;
+        
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height:72px;
+        overflow:hidden;
+    }
+    .v-class-resp{
+        opacity:0;
+        pointer-events:none;
+        overflow:hidden;
+    }
+    .section{
+        flex-direction: column-reverse;
+        text-align:center;
+        justify-content: center;
+        align-items:center;
+    }
+    .firstSection{
+        justify-content:center;
+        align-items:center;
+        flex-direction: column-reverse;
+        text-align:center;
+        
+    }
+    .fhalf img{
+        justify-content:center;
+        align-items:center;
+        margin:0 43%;
+        flex-direction: column-reverse;
+        
+    }
+    .fhalf h1{
+        margin: 0 38%;
+        padding: 18px 0;
+        
+        
+    }
+    .shalf{
+        flex-direction: column-reverse;
+    }
+    .text-big{
+        text-align: center;
+        margin-top:-60vh;
+        padding-top:2rem;
+        
+    }
+    .text-small{
+        text-align:center;
+        padding: 5rem 2rem
+        
+
+    }  
+    .paras{
+        margin-left: 15%;
+        align-items: center;
+    }
+    
+    
+
+
+
+};
